@@ -1,0 +1,27 @@
+p{
+    font-family: 'Times New Roman', Times, serif;
+    color: #6b6b6b;
+}
+h1{
+    font-family: 'Arial', sans-serif;
+    color: #a5a5a5;
+}
+h2{
+    font-family: 'Arial', sans-serif;
+    color: #444;
+}
+a{
+    color: #707070;
+    text-decoration: none;
+}
+body{ 
+    background-image: linear-gradient(to right, rgb(41, 41, 41),rgb(57, 143, 139));
+}
+li {
+    font-family: 'Courier New', Courier, monospace;
+    color: #555;
+}
+img{
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
