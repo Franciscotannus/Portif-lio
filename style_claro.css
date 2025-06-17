@@ -1,3 +1,16 @@
+
+body{ 
+    background-image: linear-gradient(to right, rgb(255, 255, 255),rgb(156, 156, 156));
+}
+div.menu {
+    position: absolute;
+    right: 30px;
+    background-color: #000000;
+    padding: 10px;
+    text-align: justify;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
 p{
     font-family: 'Times New Roman', Times, serif;
     color: #6b6b6b;
@@ -14,8 +27,9 @@ a{
     color: #707070;
     text-decoration: none;
 }
-body{ 
-    background-image: linear-gradient(to right, rgb(41, 41, 41),rgb(57, 143, 139));
+
+body.escuro { 
+    background-image: linear-gradient(to right, rgb(0, 0, 0),rgb(49, 58, 57));
 }
 li {
     font-family: 'Courier New', Courier, monospace;
