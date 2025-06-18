@@ -48,6 +48,17 @@
     <p>WhatsApp: <a href="https://wa.me/5511913628633">Clique aqui</a></p>
     <p>LinkedIn: <a href="https://www.linkedin.com/in/francisco-soares-gibrail-tannús-114a8a331/">Clique aqui</a></p>
     <p>GitHub: <a href="https://github.com/Franciscotannus">Clique aqui</a></p>
-    <script></script>
+    <script>
+        const toggleBtn = document.getElementById("toggle-theme");
+const themeStyle = document.getElementById("css");
+
+toggleBtn.addEventListener("click", function() {
+    if (themeStyle.getAttribute("href") === "style_claro.css") {
+        themeStyle.setAttribute("href", "style_escuro.css");
+    } else {
+        themeStyle.setAttribute("href", "style_claro.css");
+    }
+});
+    </script>
 </body>
 </html>
